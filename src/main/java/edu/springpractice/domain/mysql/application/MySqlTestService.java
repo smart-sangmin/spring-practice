@@ -1,21 +1,21 @@
 package edu.springpractice.domain.mysql.application;
 
-import edu.springpractice.domain.mysql.MyEntity;
-import edu.springpractice.domain.mysql.dto.CreationRequest;
-import edu.springpractice.domain.mysql.dto.CreationResponse;
-import edu.springpractice.domain.mysql.repository.MyEntityRepository;
+import edu.springpractice.domain.mysql.MySqlTest;
+import edu.springpractice.domain.mysql.dto.MySqlTestCreationRequest;
+import edu.springpractice.domain.mysql.dto.MySqlTestCreationResponse;
+import edu.springpractice.domain.mysql.repository.MySqlTestRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class MyEntityService {
+public class MySqlTestService {
 
-    private final MyEntityRepository myEntityRepository;
+    private final MySqlTestRepository mySqlTestRepository;
 
-    public CreationResponse create(CreationRequest dto) {
-        MyEntity saved = myEntityRepository.save(dto.toEntity());
-        return new CreationResponse(saved);
+    public MySqlTestCreationResponse create(MySqlTestCreationRequest dto) {
+        MySqlTest saved = mySqlTestRepository.save(dto.toEntity());
+        return new MySqlTestCreationResponse(saved);
     }
 
 }

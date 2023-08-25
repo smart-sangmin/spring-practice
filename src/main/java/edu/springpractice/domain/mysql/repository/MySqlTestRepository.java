@@ -1,7 +1,7 @@
 package edu.springpractice.domain.mysql.repository;
 
-import edu.springpractice.domain.mysql.MyEntity;
+import edu.springpractice.domain.mysql.MySqlTest;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface MyEntityRepository extends JpaRepository<MyEntity, Long> {
+public interface MySqlTestRepository extends JpaRepository<MySqlTest, Long> {
 }

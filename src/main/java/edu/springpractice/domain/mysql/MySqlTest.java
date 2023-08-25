@@ -13,10 +13,10 @@ import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.Length;
 
 @Entity
-@Table(name = "my_tests")
+@Table(name = "my_sql_tests")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class MyEntity {
+public class MySqlTest {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,7 +27,7 @@ public class MyEntity {
     private String value;
 
     @Builder
-    private MyEntity(String value) {
+    private MySqlTest(String value) {
         this.value = value;
     }
 
