@@ -1,8 +1,8 @@
-package edu.springpractice.domain.mysql.presentation;
+package edu.springpractice.domain.mysqltest.presentation;
 
-import edu.springpractice.domain.mysql.application.MySqlTestService;
-import edu.springpractice.domain.mysql.dto.MySqlTestCreationRequest;
-import edu.springpractice.domain.mysql.dto.MySqlTestCreationResponse;
+import edu.springpractice.domain.mysqltest.application.MySqlTestService;
+import edu.springpractice.domain.mysqltest.dto.MySqlTestCreationRequest;
+import edu.springpractice.domain.mysqltest.dto.MySqlTestCreationResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

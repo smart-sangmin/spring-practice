@@ -1,9 +1,9 @@
-package edu.springpractice.domain.mysql.application;
+package edu.springpractice.domain.mysqltest.application;
 
-import edu.springpractice.domain.mysql.MySqlTest;
-import edu.springpractice.domain.mysql.dto.MySqlTestCreationRequest;
-import edu.springpractice.domain.mysql.dto.MySqlTestCreationResponse;
-import edu.springpractice.domain.mysql.repository.MySqlTestRepository;
+import edu.springpractice.domain.mysqltest.MySqlTest;
+import edu.springpractice.domain.mysqltest.dto.MySqlTestCreationRequest;
+import edu.springpractice.domain.mysqltest.dto.MySqlTestCreationResponse;
+import edu.springpractice.domain.mysqltest.repository.MySqlTestRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

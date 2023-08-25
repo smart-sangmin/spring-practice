@@ -1,4 +1,4 @@
-package edu.springpractice.domain.mysql;
+package edu.springpractice.domain.mysqltest;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
