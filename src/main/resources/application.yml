@@ -16,7 +16,14 @@ spring:
         format_sql: true
     open-in-view: false
 
+  data:
+    mongodb:
+      uri: mongodb://root:1234@localhost:27017/test
 
   jackson:
     serialization:
       fail-on-empty-beans: false
+
+server:
+  servlet:
+    context-path: /api
