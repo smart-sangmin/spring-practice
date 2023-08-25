@@ -1,8 +1,8 @@
-package edu.springpractice.domain.mytest.presentation;
+package edu.springpractice.domain.mysql.presentation;
 
-import edu.springpractice.domain.mytest.application.MyEntityService;
-import edu.springpractice.domain.mytest.dto.CreationRequest;
-import edu.springpractice.domain.mytest.dto.CreationResponse;
+import edu.springpractice.domain.mysql.application.MyEntityService;
+import edu.springpractice.domain.mysql.dto.CreationRequest;
+import edu.springpractice.domain.mysql.dto.CreationResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
-@RequestMapping("/api/test")
+@RequestMapping("/api/mysql")
 @RequiredArgsConstructor
 public class MyEntityController {
 

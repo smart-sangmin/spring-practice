@@ -1,9 +1,9 @@
-package edu.springpractice.domain.mytest.application;
+package edu.springpractice.domain.mysql.application;
 
-import edu.springpractice.domain.mytest.MyEntity;
-import edu.springpractice.domain.mytest.dto.CreationRequest;
-import edu.springpractice.domain.mytest.dto.CreationResponse;
-import edu.springpractice.domain.mytest.repository.MyEntityRepository;
+import edu.springpractice.domain.mysql.MyEntity;
+import edu.springpractice.domain.mysql.dto.CreationRequest;
+import edu.springpractice.domain.mysql.dto.CreationResponse;
+import edu.springpractice.domain.mysql.repository.MyEntityRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
