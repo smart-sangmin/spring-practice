@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
-@RequestMapping("/mysql")
+@RequestMapping("/api/mysql")
 @RequiredArgsConstructor
 public class MySqlTestController {
 
