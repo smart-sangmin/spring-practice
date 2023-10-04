@@ -3,7 +3,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
     username: root
-    password:
 
   jpa:
     show-sql: true
@@ -18,12 +17,14 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb://root:1234@localhost:27017/test
+      host: localhost
+      port: 27017
+      database: test
 
   jackson:
     serialization:
       fail-on-empty-beans: false
 
-server:
-  servlet:
-    context-path: /api
+logging:
+  level:
+    org.springframework.security: debug
