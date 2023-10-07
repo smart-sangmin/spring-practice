@@ -16,14 +16,3 @@ services:
     command:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
-
-  mongo:
-    image: mongo:latest
-    container_name: "mongo"
-    restart: always
-    ports:
-      - "27017:27017"
-    volumes:
-      - ./volumes/mongodb:/data/db
-    environment:
-      MONGO_INITDB_DATABASE: test

@@ -1,4 +1,4 @@
-package edu.springpractice.config;
+package edu.springpractice.ui.config.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
